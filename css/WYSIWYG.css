@@ -140,7 +140,7 @@ ul.soc-icons { list-style: none; display: inline-block; vertical-align: top; pad
 ul.soc-icons::after { content: ""; display: block; clear: both; }
 ul.soc-icons li { display: inline-block; padding: 0 0 0 1em; font-size: 1.5em; }
 ul.soc-icons li a { text-decoration: none !important;}
-ul.soc-icons li a:hover i { color: #000;
+ul.soc-icons li a:hover i { color: #0085a1;
 	-moz-animation: spinHorizontal .5s linear;
     -o-animation: spinHorizontal .5s linear;    
     -webkit-animation: spinHorizontal .5s linear;
