@@ -1,6 +1,5 @@
 # Site settings
 title: Berlin
-email: ""
 description: "Supporting Asian-owned restaurants and grocers in Berlin"
 url: "https://shenchingtou.github.io"
 baseurl: "/berlinasianfood"
@@ -14,7 +13,7 @@ owner:
   name:   Athena
   avatar: false
   favicon: false
-  info: Berlin Asian Food 
+  info: Berlin Asian Food Map
 
 # Settings for comments helper
 # Set 'provider' to the comment provider you want to use. (i.e.  Disqus, Intense Debate, livefyre, or Facebook Comments)
@@ -29,7 +28,7 @@ comments :
 
 # Internal nav
 nav:
-  - ABOUT: "https://shenchingtou.github.io/berlinasianfood/"
+  - ABOUT: "https://shenchingtou.github.io/berlinasianfoodmap/"
 
 # All translation keys
 translations:
@@ -54,7 +53,5 @@ sitemap:
         - "/atom.xml"
         - "/feed.xml"
         - "/feed/index.xml"
-    include_posts:
-        - "/writing/"
     change_frequency_name: "change_frequency"
     priority_name: "priority"
