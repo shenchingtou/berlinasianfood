@@ -1,15 +1,8 @@
 ---
 layout: home
-main-title: "PHOT&#8226;O&#8226;RAMA"
-subtitle: "Photo Journal"
-description: "Photography and more"
-images:
- - image_path: /img/slider/home01.jpg
-   gallery-folder: /img/slider/
- - image_path: /img/slider/home02.jpg
-   gallery-folder: /img/slider/
- - image_path: /img/slider/home03.jpg
-   gallery-folder: /img/slider/
+main-title: "Berlin Asian Food Map"
+subtitle: "Supporting Asian-owned businesses in Berlin"
+description: ""
 ---
 
 
@@ -50,22 +43,9 @@ images:
 						</div><br />
 			</div>
 			
-			<div class="gallery fullscreen-gallery kenburns-gallery">
+			<div class="gallery fullscreen-gallery">
 
-				<canvas id="kenburns"></canvas>
-				
-{% for image in page.images %}  	
-
-				<figure class="gallery-item">
-					<header class='gallery-icon'>
-
-<a href="{{ site.url }}{{ site.baseurl }}{{ image.gallery-folder }}">
-<img src="{{ site.url }}{{ site.baseurl }}{{ image.image_path }}"></a>
-	
-				</header>	
-				</figure>
-
-{% endfor %}
+				<iframe src="https://www.google.com/maps/d/u/0/embed?mid=19x9ImgaXJqmdcaOYLMozS9lG-XW5pFT2" width=100% height=75%></iframe>
 
 				</div>
 			<!-- END WYSIWYG -->

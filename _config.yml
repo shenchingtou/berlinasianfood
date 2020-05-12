@@ -1,24 +1,20 @@
 # Site settings
-title: PHOTORAMA
+title: Berlin
 email: ""
-description: "Photo Journal"
-url: "https://sunbliss.github.io"
-baseurl: "/photorama"
-facebook_username: ""
-twitter_username: ""
-instagram_username: ""
-github_username:  ""
-deviantart_username: ""
-flickr_username: ""
-discus_shortname: ""
+description: "Supporting Asian-owned restaurants and grocers in Berlin"
+url: "https://shenchingtou.github.io"
+baseurl: "/berlinasianfood"
+twitter_username: "shenchingtou"
+instagram_username: "thecupandtheroad"
+github_username:  "shenchingtou"
 share: true
 
 # Owner/author information
 owner:
-  name:   photorama
-  avatar: avatar.png
-  favicon: favicon.ico
-  info: photography website template
+  name:   Athena
+  avatar: false
+  favicon: false
+  info: Berlin Asian Food 
 
 # Settings for comments helper
 # Set 'provider' to the comment provider you want to use. (i.e.  Disqus, Intense Debate, livefyre, or Facebook Comments)
@@ -27,15 +23,13 @@ owner:
 # Disable comments for individual pages/posts by specifying 'comments: false' in the page/post YAML Front Matter.
 #
 comments :
-  provider : disqus
+  provider : false
   disqus :
     short_name : ""
 
 # Internal nav
 nav:
-  - GALLERY: "https://sunbliss.github.io/photorama/gallery/"  
-  - JOURNAL: "https://sunbliss.github.io/photorama/journal/"
-  - ABOUT: "https://sunbliss.github.io/photorama/about/"
+  - ABOUT: "https://shenchingtou.github.io/berlinasianfood/"
 
 # All translation keys
 translations:
@@ -51,13 +45,6 @@ port:             	 4000
 markdown: kramdown
 highlighter: rouge
 permalink: pretty
-paginate: 5
-paginate_path: "/journal/page:num/"
-permalink: "/journal/:title/"
-categories_path: "/journal/category/"
-tags_path: "/journal/tag/"
-gems: 
- - jekyll-paginate
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
 # SiteMap

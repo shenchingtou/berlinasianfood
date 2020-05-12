@@ -10,7 +10,7 @@ body #content > .wrapper { padding: 3em 4.5% 0; }
 /* Layouts */
 body.fullscreen { max-height: 100%; overflow-y: hidden; overflow-x: hidden; background: #000; }
 body.fullscreen #content { height: 100vh; overflow: hidden; }
-body.fullscreen #content > .wrapper { padding: 0; }
+body.fullscreen #content > .wrapper { padding: 3.5em; }
 
 /* Text on Dark Background (over images) */
 body.fullscreen ul.social-icons, body.fullscreen  #footer p { vertical-align: bottom; padding-bottom: 0; line-height: 1.1; }

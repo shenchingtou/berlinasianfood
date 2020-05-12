@@ -5501,12 +5501,13 @@ textarea.input-group-sm>.input-group-btn>.btn {
 }
 
 .navbar-default {
-  background-color: transparent;
+  background-color: black;
   border-style: none;
 }
 
 .navbar-default .navbar-brand {
   color: #777
+  background-color: black;
 }
 
 .navbar-default .navbar-brand:focus,
@@ -5521,16 +5522,17 @@ textarea.input-group-sm>.input-group-btn>.btn {
 
 .navbar-default .navbar-nav>li>a {
   color: #777
+  background-color: black;
 }
 
 .navbar-default .navbar-nav>li>a:hover {
    color: #0085a1;
-   background-color: transparent;
+   background-color: black;
 }
 
 .navbar-default .navbar-nav>.active>a {
   color: #6ec54d;
-  background-color: transparent;
+  background-color: black;
 }
 
 .navbar-default .navbar-nav>.active>a:hover {
@@ -5561,6 +5563,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
 
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
+  background-color: black;
   border-color: #e7e7e7;
   border-style: none;
 }
