@@ -1,14 +1,6 @@
-Template was created by Sunbliss
----> [DEMO](https://sunbliss.github.io/photorama/ "DEMO") .
-
-A theme for **jekyll**. 
+Adapted the Photorama Jekyll template created by [Sunbliss](https://sunbliss.github.io/photorama/) .
 
 Created for gh-pages (project page).
-
-This template was crafted having in mind the photobloggers and the artists.
-
-It uses [Clean Blog](https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll "Clean Blog") as its basis.
-
 
 ##License
 
